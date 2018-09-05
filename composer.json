@@ -1,0 +1,12 @@
+{
+  "name": "alienpruts/solid-design-principles",
+  "description": "Learning about SOLID design principles in PHP",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Bert Van de Casteele (Alienpruts)",
+      "email": "vandecasteele@evilones.be"
+    }
+  ]
+}
