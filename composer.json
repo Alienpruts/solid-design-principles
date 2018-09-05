@@ -8,5 +8,8 @@
       "name": "Bert Van de Casteele (Alienpruts)",
       "email": "vandecasteele@evilones.be"
     }
-  ]
+  ],
+  "autoload": {
+    "psr-4": {"App\\": "src/"}
+  }
 }
