@@ -29,7 +29,7 @@ echo '<p><strong>One should create a class specifically designed for that one re
 
 $output = new SumCalculatorOutputter($areas);
 
-var_dump($output->JSON());
-var_dump($output->HAML());
-var_dump($output->HTML());
-var_dump($output->JADE());
+echo $output->JSON();
+echo $output->HAML();
+echo $output->HTML();
+echo $output->JADE();

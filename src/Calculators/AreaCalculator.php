@@ -24,8 +24,14 @@ class AreaCalculator
 
     public function sum()
     {
-        // Sum logic would be implemented here.
-        return 'I am dummy, respect my authority!';
+        foreach($this->shapes as $shape) {
+            if(is_a($shape, 'App\Shapes\Square')) {
+;                $area[] = pow($shape->length, 2);
+            } else if(is_a($shape, 'App\Shapes\Circle')) {
+                $area[] = pi() * pow($shape->radius, 2);
+            }
+        }
+        return array_sum($area);
     }
 
     /**
