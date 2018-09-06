@@ -6,7 +6,7 @@
  * Time: 22:59
  */
 
-namespace App\Calculators;
+namespace App\Outputters;
 
 
 class SumCalculatorOutputter

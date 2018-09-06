@@ -7,7 +7,7 @@
  */
 
 use App\Calculators\AreaCalculator;
-use App\Calculators\SumCalculatorOutputter;
+use App\Outputters\SumCalculatorOutputter;
 use App\Shapes\Circle;
 use App\Shapes\Square;
 
